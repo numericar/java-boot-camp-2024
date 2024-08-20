@@ -1,0 +1,47 @@
+Overview of Java
+
+    Why java ?
+        - Platform Independence: เขียน 1 รอบทำงานได้ทุกที่
+        - Object Oriented Programming: การเขียนโปรแกรมเชิงวัตถุ
+        - Strong Community & Ecosystem: เป็นภาษาที่มีมายาวนาน และมีการใช้งานที่แพร่หลาย
+        - Robustness & Security: มีความปลอดภัยและมี standard ที่ดี 
+        - Verstility: นำไปใช้งานได้หลายอย่าง
+        - Performance: ดีระดับนึง
+        - Automatic memory management: มี Garbage Collention ช่วยจัดการกับ memory
+
+    Where is it use as 2024 ?
+        - General-purpose programming language 
+        - Backend application (Server-side)
+        - Enterprice application 
+        - Big Data (e.g spark)
+        - From the other JVM language e.g. Kotlin, Scala
+        - Some what android development, Gaming System
+
+    Java: เป็น Programming Language ที่ใช้สื่อสารกับคอมพิวเตอร์ โดยอยู่บนฐานของ JVM 
+
+    Architecture
+        - Java Program: เป็นสิ่งที่ developer เขียนขึ้นมาเพื่อแก้ปัญหา
+        - Java compiler: แปลง Java program เป็นไฟล์ที่สามารถนำไป execute ได้
+        - Bytecode: .class or .jar เป็นไฟล์ที่นำไป execute ด้วย Java runtime 
+        - Java Interpreter: อ่าน Bytecode ทีละบรรทัด โดยจะใช้ JIT (Just-in-time Complier), Hospot จะมีการ catch ไว้ทำให้ Interpreter ทำงานเร็วขึ้น
+        - Machine Code 
+        - JVM 
+        - CPU 
+        - Output
+
+    Compiler: เป็นตัวอ่าน Program ทั้งไฟล์ก่อน โดยจะตรวจสอบว่าเกิด error ตรงไหนของ Program หรือไม่ ในเรื่องของ syntax
+    Interpreter: อ่านทีละบรรทัด
+
+    JDK (Java Development Kit)
+        1. JRE (Java Runtime Environment)
+            1.1 JVM (Java virtual machine)
+                1.1.1 Bytecode 
+                1.1.2 Interpreter
+                1.1.3 Class Loader
+            1.2 Set of libraries 
+            1.2 other file
+        2. Development Tools
+
+    JDK: ถูกสร้างขึ้นมาเพื่อให้ developer สามารถสร้างโปรแกรมจากภาษา Java ได้ (Super set)
+    JRE: ห่อหุ้ม JVM, libraries, files อื่น ๆ ที่ใช้ในการพัฒนา
+    JVM: แปล Bytecode ให้สามารถดำเนินการกับระบบปฏิบัติการได้
