@@ -1,0 +1,26 @@
+Git Crash Course
+    ใช้สำหรับการควบคุม version ของไฟล์ต่าง ๆ ในโปรเจคบน Repository
+    
+
+    * Repository: ใช้เก็บไฟล์ที่ต้องการควบคุม version ของไฟล์นั้น ๆ 
+
+    Local Repository แบ่งออกเป็นตามนี้
+        1. Working Directory
+        2. Staging area 
+        3. Local repository
+
+    Commands
+        - git init: ใช้ในการสร้างโครงการ git 
+        - git remote add origin [repository]: เป็นการนำ repository บน remote ลงมายัง local
+        - git remove -v: ใชสำหรับตรวจสอบ repository ของเรา
+        - git pull origin [branch_name]: ดึงข้อมูลไฟล์จาก remote มาที่ local 
+        - git status: ตรวจสอบว่าในปัจจุบันมีอะไรที่ต้องนำขึ้น git บ้าง โดยจะดูแค่ใน Staging area
+        - git checkout [branch_name]: เป็ยการสลับ branch
+        - git add [files]: เป็นการระบุไฟล์ที่ต้องการนำขึ้น git (staging area)
+        - git restore --staged [files]: นำไฟล์ที่อยู่ในขั้น Staging area ย้อนกลับไปที่ Working Directory
+        - git commit -m [message]: ย้ายจาก staging area ไปที่ Local repository
+        - git push -u(upstream) origin [branch_name]: นำ Local repository
+        - git fetch: ตรวจสอบว่าบน remote มีการ push ใหม่ไหม
+
+    * Upstream: ใช้เรียกฝั่ง remote 
+    * Downstream: ใช้เรียกฝั่ง local 
