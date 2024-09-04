@@ -7,6 +7,14 @@ Data Type (ชนิดตัวแปร)
 
 Operators (ตัวดำเนินการกับตัวแปร)
     เป็นตัวที่ใช้ดำเนินการจัดการกับ data ให้สร้างผลลัพธ์ออกมาได้
+    โดยจะมีประเภทตามนี้
+        - Arthmetic
+        - Relotional
+        - Logical
+        - Bitwise
+        - Assugnment Operators
+        - Unary Operators
+        - Ternary
 
 * Data (ข้อมูล): เป็นข้อมูลดิบ ยังไม่เคยผ่านการประมวลผล อาจมีความหมายหรือไม่มีความหมายก็ได้ โดยจะมีอยู่ 2 แบบ คือ 
     Data: Qualitative 
